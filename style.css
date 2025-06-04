@@ -1,0 +1,5096 @@
+/* *, *::before, *::after {
+  box-sizing: border-box;
+} */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+.wrapper{
+    overflow-x: hidden !important;
+}
+body, html {
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+    /* overflow-x: hidden !important; */
+}
+
+.container{
+    overflow-x: hidden !important;
+}
+
+
+.logo{
+    width: 80px;
+    height: 70px !important;
+}
+.hero {
+    /* background: url('https://validthemes.net/themeforest/wp/agrul/wp-content/uploads/2022/10/17.jpg') no-repeat center center/cover; */
+    /* height: 100vh; */
+    position: relative;
+    color: white;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    /* left: 8%; */
+    /* transform: translateY(-50%); */
+    /* max-width: 600px; */
+}
+
+.content h5 {
+    font-weight: bold;
+}
+
+.content h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 64px;
+    color: #f4c542;
+}
+
+.content h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+}
+
+.content p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 20px 0;
+}
+
+.content .btn {
+    background-color: #f4c542;
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.content .btn:hover {
+    background-color: #f4c542;
+    color: black;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+.carousel-image-wrapper {
+      position: relative;
+    }
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    /* left: 10%; */
+    /* z-index: 2; */
+    text-align: left;
+    color: #fff;
+}
+
+.carousel-caption h1,
+.carousel-caption h2,
+.carousel-caption p {
+    margin: 10px 0;
+}
+
+.carousel-caption .btn {
+    background-color: #ffc94b;
+    color: #000;
+    padding: 10px 25px;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #e0b500;
+    /* transform: scale(1.05); */
+}
+
+.card {
+  border: none !important;
+  box-shadow: none; /* optional, if you want to remove shadow too */
+}
+
+.carousel1 .card {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 250px;
+    font-size: 90px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.owl-carousel .owl-dots {
+  display: flex !important;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+  box-shadow: none !important;
+border-radius: 50%;
+background-color: white !important;
+}
+/* 
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+} */
+/* .owl-dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.872) !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+} */
+/* .owl-dot.active,
+.owl-dot:hover {
+    background: rgba(0, 0, 0, 0.747) !important;
+} */
+
+.about{
+    margin-top: 600px !important;
+}
+
+.custom-heading {
+  /* font-family: 'Poppins', sans-serif; */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-weight: 600;
+  /* font-size: 28px; */
+}
+
+.custom-heading::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 20%;
+  height: 3px;
+  background-color: green;
+  transition: all 0.3s ease;
+}
+
+.custom-heading:hover::after {
+  width: 50%;
+}
+
+.custom-heading1 {
+  /* font-family: 'Poppins', sans-serif; */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-weight: 600;
+  /* font-size: 28px; */
+}
+
+.custom-heading1::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 3px;
+  background-color: green;
+  transition: all 0.3s ease;
+}
+
+.custom-heading1:hover::after {
+  width: 70%;
+}
+
+.custom-heading2 {
+  /* font-family: 'Poppins', sans-serif; */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-weight: 600;
+  /* font-size: 28px; */
+}
+
+.custom-heading2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 15%;
+  height: 3px;
+  background-color: green;
+  transition: all 0.3s ease;
+}
+
+.custom-heading2:hover::after {
+  width: 25%;
+}
+
+.big-image{
+  position: relative;
+  border: 8px solid green;
+  border-radius: 50%;
+  width: 430px;
+  height: 420px;
+
+}
+
+.banner1{
+    height: 600px;
+}
+
+.img2-div{
+  position: absolute;
+}
+
+.small-image{
+  /* position: absolute; */
+  border: 8px solid rgb(51, 206, 51);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  /* left: 40px; */
+  /* top: 90px; */
+}
+
+.heart{
+    color: green;
+}
+
+
+.card.hover-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.card.hover-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.hover-description {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 80, 0, 0.85); /* dark green semi-transparent */
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+  pointer-events: none;
+  width: max-content;
+  max-width: 80%;
+}
+
+.card.hover-card:hover .hover-description {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card.hover-card .hover-description h5 {
+  font-size: 18px !important;
+}
+
+
+.hover-description p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.farmer{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.leaf{
+  font-size: 20px;
+  color: #2dad65;
+}
+
+.crop p{
+    padding-left: 33px;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #ffd012 !important;
+}
+
+.accordion-button:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    
+}
+.card-video {
+  height: 250px; 
+  /* width: 100%; */
+  object-fit: cover;
+}
+
+#cardCarousel3 .carousel-indicators {
+    bottom: -30px; /* Adjust as needed */
+}
+
+
+#cardCarousel4 .carousel-indicators {
+    bottom: -30px; /* Adjust as needed */
+}
+.foot{
+    background-color: rgba(3, 75, 58, 0.886) !important;
+    background-image: url('images/fe9fe787-fd21-4ee9-983a-fa48324d67b0.png'); 
+    /* background-size: cover;  */
+    /* background-position: center; */
+}
+
+.email::placeholder{
+    font-size: small;
+}
+.links a:hover{
+    color: #ffd012 !important;
+}
+
+.line{
+    color: white;
+}
+
+.contact p a:hover{
+    color: #ffd012 !important;
+}
+
+.icons {
+  list-style: none;
+  padding: 0;
+}
+
+.icons li {
+  height: 40px;
+  width: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px 0 5px;;
+  cursor: pointer;
+  position: relative;
+}
+
+.icons li:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 10%;
+  background: #53864d; 
+  /* background: linear-gradient(45deg, #5f02ab, #ae31d9); */
+  transition: all 0.3s ease-in;
+}
+
+.icons li:hover:before {
+  transform: rotate(360deg);
+  border-radius: 100%;
+}
+
+.icons li a span {
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+
+.icons li:hover a span {
+  transform: scale(1.2);
+}
+
+@media (min-width:320px) and (max-width:344px){
+    .logo{
+        width: 30px;
+        height: 30px !important;
+    }
+    .logo-div h2{
+        font-size: small !important;
+    }
+     .logo-div div .paragraph {
+        font-size: 5px !important;
+        /* color: red !important; */
+    }
+    .footer-logos{
+        width: 80px !important;
+        height: 30px;
+    }
+    .banner1{
+        height: 430px;
+    }
+    .banner-row h1{
+        font-size: 33px !important;
+    }
+    .banner-row h3{
+        font-size: medium;
+    }
+    .banner-row h6{
+        font-size: x-small;
+    }
+    .big-image{
+        margin-top: -130px !important;
+        width: 320px;
+        height: 330px;
+    }
+    .small-image{
+        width: 150px;
+        height: 150px;
+        margin-top: -140px;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: larger;
+    }
+
+    .about p{
+        font-size: 11px !important;
+    }
+
+    .about h5{
+        font-size: 11px;
+    }
+
+    .about .extra-content div p{
+        font-size: x-small !important;
+    }
+    
+    .heart{
+        font-size: x-small !important;
+    }
+    .empower-p p{
+        font-size: 12px !important;
+    }
+
+    .book-caro .container {
+        padding-left: 0px !important;
+    }
+
+    .centers-carousel, .centers-carousel .carousel-inner .center-caro .container .card{
+        width: 700px !important;
+    }
+    .center-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .gallery-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .caro1{
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+    .card img {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .card.hover-card .hover-description h5 {
+        font-size: 10px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 7px !important;
+    }
+
+    .crop h5{
+        font-size: medium !important;
+    }
+
+    .crop p{
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: smaller !important;
+    }
+
+    .center1, .center2, .center3, .center4{
+        width: 450px !important;
+    }
+    .book1, .book2, .book3, .book4{
+        width: 330px !important;  
+    }
+
+    .update-row{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .image1, .image2, .image3{
+        width: 400px !important;
+    }
+    .agriculture{
+        padding-top: 40px;
+    }
+
+    .agriculture .acc-btn{
+        font-size: small;
+    }
+
+    .agriculture .acc-body{
+        font-size: smaller;
+    }
+
+    .links{
+        padding-top: 0px !important;
+    }
+    .links h3{
+        padding-left: 0px !important;
+    }
+    .links div{
+        padding-left: 0px !important;
+    }
+
+    .contact1{
+        padding-top: 0px !important;
+    }
+    
+}
+@media (min-width: 345px) and (max-width: 400px){
+    .logo{
+        width: 30px;
+        height: 30px !important;
+    }
+    .logo-div h2{
+        font-size: small !important;
+    }
+     .logo-div div .paragraph {
+        font-size: xx-small !important;
+        /* color: red !important; */
+    }
+    .footer-logos{
+        width: 80px !important;
+        height: 30px;
+    }
+    .banner1{
+        height: 430px;
+    }
+    .banner-row h1{
+        font-size: 33px !important;
+    }
+    .banner-row h3{
+        font-size: medium;
+    }
+    .banner-row h6{
+        font-size: x-small;
+    }
+    .big-image{
+        margin-top: -130px !important;
+        width: 320px;
+        height: 330px;
+    }
+    .small-image{
+        width: 150px;
+        height: 150px;
+        margin-top: -140px;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: larger;
+    }
+
+    .about p{
+        font-size: 11px !important;
+    }
+
+    .about h5{
+        font-size: 11px;
+    }
+
+    .about .extra-content div p{
+        font-size: x-small !important;
+    }
+    
+    .heart{
+        font-size: x-small !important;
+    }
+    .empower-p p{
+        font-size: 12px !important;
+    }
+
+    .book-caro .container {
+        padding-left: 0px !important;
+    }
+
+    .centers-carousel, .centers-carousel .carousel-inner .center-caro .container .card{
+        width: 700px !important;
+    }
+    .center-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .gallery-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .caro1{
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+    .card img {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+     .card.hover-card .hover-description h5 {
+        font-size: 10px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 7px !important;
+    }
+
+    .crop h5{
+        font-size: medium !important;
+    }
+
+    .crop p{
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: smaller !important;
+    }
+
+    .center1, .center2, .center3, .center4{
+        width: 450px !important;
+    }
+    .book1, .book2, .book3, .book4{
+        width: 390px !important;  
+        height: 600px !important;
+    }
+
+    .update-row{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .image1, .image2, .image3{
+        width: 400px !important;
+    }
+    .agriculture{
+        padding-top: 40px;
+    }
+
+    .agriculture .acc-btn{
+        font-size: small;
+    }
+
+    .agriculture .acc-body{
+        font-size: smaller;
+    }
+
+    .links{
+        padding-top: 0px !important;
+    }
+    .links h3{
+        padding-left: 0px !important;
+    }
+    .links div{
+        padding-left: 0px !important;
+    }
+
+    .contact1{
+        padding-top: 0px !important;
+    }
+}
+@media (min-width: 401px) and (max-width: 430px){
+    .logo{
+        width: 30px;
+        height: 30px !important;
+    }
+    .logo-div h2{
+        font-size: small !important;
+    }
+     .logo-div div .paragraph {
+        font-size: xx-small !important;
+        /* color: red !important; */
+    }
+    .footer-logos{
+        width: 80px !important;
+        height: 30px;
+    }
+    .banner1{
+        height: 430px;
+    }
+    .banner-row h1{
+        font-size: 35px !important;
+    }
+    .banner-row h3{
+        font-size: medium;
+    }
+    .banner-row h6{
+        font-size: x-small;
+    }
+    .about .img-div{
+        padding-left: 60px;
+    }
+    .big-image{
+        margin-top: -130px !important;
+        width: 320px;
+        height: 330px;
+    }
+    .small-image{
+        width: 150px;
+        height: 150px;
+        margin-top: -140px;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: x-large;
+    }
+
+    .about p{
+        font-size: 12px !important;
+    }
+
+    .about h5{
+        font-size: 13px;
+    }
+
+    .about .extra-content div p{
+        font-size: 11px !important;
+    }
+    
+    .heart{
+        font-size: smaller !important;
+    }
+    .empower-p p{
+        font-size: 13px !important;
+    }
+    .farmer-row{
+        padding-left: 20px !important;
+    }
+    .farmer-row img{
+        height: 390px;
+        width: 390px;
+    }
+
+    .book-caro .container {
+        padding-left: 0px !important;
+    }
+
+    .centers-carousel, .centers-carousel .carousel-inner .center-caro .container .card{
+        width: 700px !important;
+    }
+    .center-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .gallery-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .caro1{
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+    .card img {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .card.hover-card .hover-description h5 {
+        font-size: 10px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 7px !important;
+    }
+
+    .crop h5{
+        font-size: medium !important;
+    }
+
+    .crop p{
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: smaller !important;
+    }
+
+    .center1, .center2, .center3, .center4{
+        width: 450px !important;
+    }
+    .book1, .book2, .book3, .book4{
+        width: 420px !important;  
+        height: 630px !important;
+    }
+
+    .update-row{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .image1, .image2, .image3{
+        width: 400px !important;
+    }
+    .agriculture{
+        padding-top: 40px;
+    }
+
+    .agriculture .acc-btn{
+        font-size: small;
+    }
+
+    .agriculture .acc-body{
+        font-size: smaller;
+    }
+
+    .links{
+        padding-top: 0px !important;
+    }
+    .links h3{
+        padding-left: 0px !important;
+    }
+    .links div{
+        padding-left: 0px !important;
+    }
+
+    .contact1{
+        padding-top: 0px !important;
+    }
+}
+@media (min-width: 431px) and (max-width: 470px){
+    .logo{
+        width: 30px;
+        height: 30px !important;
+    }
+    .logo-div h2{
+        font-size: small !important;
+    }
+    .logo-div div .paragraph {
+        font-size: xx-small !important;
+        /* color: red !important; */
+    }
+
+    .footer-logos{
+        width: 80px !important;
+        height: 30px;
+    }
+    .banner1{
+        height: 430px;
+    }
+    .banner-row h1{
+        font-size: 35px !important;
+    }
+    .banner-row h3{
+        font-size: medium;
+    }
+    .banner-row h6{
+        font-size: x-small;
+    }
+    .about .img-div{
+        padding-left: 60px;
+    }
+    .big-image{
+        margin-top: -130px !important;
+        width: 320px;
+        height: 330px;
+    }
+    .small-image{
+        width: 150px;
+        height: 150px;
+        margin-top: -140px;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: x-large;
+    }
+
+    .about p{
+        font-size: 12px !important;
+    }
+
+    .about h5{
+        font-size: 13px;
+    }
+
+    .about .extra-content div p{
+        font-size: 11px !important;
+    }
+    
+    .heart{
+        font-size: smaller !important;
+    }
+    .empower-p p{
+        font-size: 13px !important;
+    }
+    .farmer-row{
+        padding-left: 20px !important;
+    }
+    .farmer-row img{
+        height: 390px;
+        width: 390px;
+    }
+
+    .book-caro .container {
+        padding-left: 0px !important;
+    }
+
+    .centers-carousel, .centers-carousel .carousel-inner .center-caro .container .card{
+        width: 700px !important;
+    }
+    .center-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .gallery-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .caro1{
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+    .card img {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .card.hover-card .hover-description h5 {
+        font-size: 13px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 10px !important;
+    }
+
+    .crop h5{
+        font-size: medium !important;
+    }
+
+    .crop p{
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: smaller !important;
+    }
+
+    .center1, .center2, .center3, .center4{
+        width: 450px !important;
+    }
+    .book1, .book2, .book3, .book4{
+        width: 460px !important;  
+        height: 680px !important;
+    }
+
+    .update-row{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .image1, .image2, .image3{
+        width: 460px !important;
+    }
+    .agriculture{
+        padding-top: 40px;
+    }
+
+    .agriculture .acc-btn{
+        font-size: small;
+    }
+
+    .agriculture .acc-body{
+        font-size: smaller;
+    }
+
+    .links{
+        padding-top: 0px !important;
+    }
+    .links h3{
+        padding-left: 0px !important;
+    }
+    .links div{
+        padding-left: 0px !important;
+    }
+
+    .contact1{
+        padding-top: 0px !important;
+    }
+}
+@media (min-width: 471px) and (max-width: 530px){
+    .logo{
+        width: 50px;
+        height: 50px !important;
+    }
+    .logo-div h2{
+        font-size: large !important;
+    }
+    .footer-logos{
+        width: 90px !important;
+        height: 40px;
+    }
+    .banner1{
+        height: 430px;
+    }
+    .banner-row h1{
+        font-size: 40px !important;
+    }
+    .banner-row h3{
+        font-size: medium;
+    }
+    .banner-row h6{
+        font-size: smaller !important;
+    }
+    .about .img-div{
+        padding-left: 60px;
+    }
+    .big-image{
+        margin-top: -130px !important;
+        width: 380px;
+        height: 380px;
+    }
+    .small-image{
+        width: 170px;
+        height: 170px;
+        margin-top: -140px;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: xx-large;
+    }
+
+    .about p{
+        font-size: 13px !important;
+    }
+
+    .about h5{
+        font-size: 13px;
+    }
+
+    .about .extra-content div p{
+        font-size: 12px !important;
+    }
+    
+    .heart{
+        font-size: small !important;
+    }
+    .empower-p p{
+        font-size: 13px !important;
+    }
+    .farmer-row{
+        padding-left: 20px !important;
+    }
+    .farmer-row img{
+        height: 450px;
+        width: 450px;
+    }
+
+    .book-caro .container {
+        padding-left: 0px !important;
+    }
+
+    .centers-carousel, .centers-carousel .carousel-inner .center-caro .container .card{
+        width: 700px !important;
+    }
+    .center-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .gallery-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .caro1{
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+    .card img {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .card.hover-card .hover-description h5 {
+        font-size: 13px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 10px !important;
+    }
+
+    .crop h5{
+        font-size: medium !important;
+    }
+
+    .crop p{
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: smaller !important;
+    }
+
+    .center1, .center2, .center3, .center4{
+        width: 600px !important;
+    }
+    .book1, .book2, .book3, .book4{
+        width: 520px !important;  
+        height: 800px !important;
+    }
+
+    .update-row{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .image1, .image2, .image3{
+        width: 520px !important;
+    }
+   
+    .agriculture{
+        padding-top: 40px;
+    }
+
+    .agriculture .acc-btn{
+        font-size: small;
+    }
+
+    .agriculture .acc-body{
+        font-size: smaller;
+    }
+
+    .links{
+        padding-top: 0px !important;
+    }
+    .links h3{
+        padding-left: 0px !important;
+    }
+    .links div{
+        padding-left: 0px !important;
+    }
+
+    .contact1{
+        padding-top: 0px !important;
+    }
+}
+@media (min-width: 531px) and (max-width: 570px){
+    .logo{
+        width: 60px;
+        height: 60px !important;
+    }
+    .logo-div h2{
+        font-size: larger !important;
+    }
+    .footer-logos{
+        width: 100px !important;
+        height: 50px;
+    }
+    .banner1{
+        height: 430px;
+    }
+    .banner-row h1{
+        font-size: 43px !important;
+    }
+    .banner-row h3{
+        font-size: medium;
+    }
+    .banner-row h6{
+        font-size: smaller !important;
+    }
+    .about .img-div{
+        padding-left: 70px;
+    }
+    .big-image{
+        margin-top: -130px !important;
+        width: 420px;
+        height: 420px;
+    }
+    .small-image{
+        width: 170px;
+        height: 170px;
+        margin-top: -140px;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 34px;
+    }
+
+    .about p{
+        font-size: 15px !important;
+    }
+
+    .about h5{
+        font-size: 16px;
+    }
+
+    .about .extra-content div p{
+        font-size: 14px !important;
+    }
+    
+    .heart{
+        font-size: small !important;
+    }
+    .empower-p p{
+        font-size: 14px !important;
+    }
+    .farmer-row{
+        padding-left: 20px !important;
+    }
+    .farmer-row img{
+        height: 480px;
+        width: 480px;
+    }
+
+    .book-caro .container {
+        padding-left: 0px !important;
+    }
+
+    .centers-carousel, .centers-carousel .carousel-inner .center-caro .container .card{
+        width: 700px !important;
+    }
+    .center-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .gallery-caro .container{
+        padding-left: 0px !important;
+    }
+
+    /* .caro1{
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        margin-left: 0px !important;
+    } */
+    .card img {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .card.hover-card .hover-description h5 {
+        font-size: 13px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 10px !important;
+    }
+
+    .crop h5{
+        font-size: medium !important;
+    }
+
+    .crop p{
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: smaller !important;
+    }
+
+    .center1, .center2, .center3, .center4{
+        width: 600px !important;
+    }
+
+    .update-row{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .image1, .image2, .image3{
+        width: 520px !important;
+    }
+   
+    .agriculture{
+        padding-top: 40px;
+    }
+
+    .agriculture .acc-btn{
+        font-size: medium;
+    }
+
+    .agriculture .acc-body{
+        font-size: small;
+    }
+
+    .links{
+        padding-top: 0px !important;
+    }
+    .links h3{
+        padding-left: 0px !important;
+    }
+    .links div{
+        padding-left: 0px !important;
+    }
+
+    .contact1{
+        padding-top: 0px !important;
+    }
+}
+@media (min-width: 571px) and (max-width: 630px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+    .logo{
+        width: 60px;
+        height: 60px !important;
+    }
+    .logo-div h2{
+        font-size: larger !important;
+    }
+    .footer-logos{
+        width: 100px !important;
+        height: 50px;
+    }
+
+    .banner1{
+        max-width: 100% !important;
+        width: 700px !important;
+        height: 530px;
+    }
+
+    .banner-row h1{
+        font-size: 43px !important;
+    }
+    .banner-row h3{
+        font-size: medium;
+    }
+    .banner-row h6{
+        font-size: smaller !important;
+    }
+    .about .img-div{
+        padding-left: 70px;
+    }
+    .big-image{
+        /* margin-top: -130px !important; */
+        width: 420px;
+        height: 420px;
+    }
+    .small-image{
+        width: 170px;
+        height: 170px;
+        /* margin-top: -140px; */
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 36px;
+    }
+
+    .about p{
+        font-size: 15px !important;
+    }
+
+    .about h5{
+        font-size: 16px;
+    }
+
+    .about .extra-content div p{
+        font-size: 14px !important;
+    }
+    
+    .heart{
+        font-size: small !important;
+    }
+    .empower-p p{
+        font-size: 15px !important;
+    }
+    .farmer-row{
+        padding-left: 50px !important;
+    }
+    .farmer-row img{
+        height: 480px;
+        width: 480px;
+    }
+
+    .book-caro .container {
+        padding-left: 0px !important;
+    }
+
+    .book1, .book2, .book3, .book4{
+        width: 280px !important;
+    }
+
+    .centers-carousel .container .card {
+        max-width: 100% !important;
+        width: auto !important;
+    }
+
+    .center-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .gallery-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .card img {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .card.hover-card .hover-description h5 {
+        font-size: 14px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 11px !important;
+    }
+
+    .crop h5{
+        font-size: larger !important;
+    }
+
+    .crop p{
+        font-size: 17px !important;
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: medium !important;
+    }
+
+    .center1, .center2, .center3, .center4 {
+        max-width: 100% !important;
+        width: auto !important;
+    }
+
+    .update-row{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .image1, .image2, .image3{
+        width: 590px !important;
+    }
+   
+    .agriculture{
+        padding-top: 40px;
+    }
+
+    .agriculture .acc-btn{
+        font-size: medium;
+    }
+
+    .agriculture .acc-body{
+        font-size: small;
+    }
+
+    .links{
+        padding-top: 0px !important;
+    }
+    .links h3{
+        padding-left: 0px !important;
+    }
+    .links div{
+        padding-left: 0px !important;
+    }
+
+    .contact1{
+        padding-top: 0px !important;
+    }
+    .faq-img{
+        height: 490px;
+        width: 590px !important;
+    }
+}
+@media (min-width: 631px) and (max-width: 730px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+    .logo{
+        width: 70px;
+        height: 70px !important;
+    }
+    .logo-div h2{
+        font-size: x-large !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 12px !important;
+        /* color: red !important; */
+    }
+    .footer-logos{
+        width: 110px !important;
+        height: 60px;
+    }
+    .banner1{
+        height: 470px;
+    }
+    .banner-row h1{
+        font-size: 46px !important;
+    }
+    .banner-row h3{
+        font-size: x-large !important;
+    }
+    .banner-row h6{
+        font-size: medium !important;
+    }
+    .about .img-div{
+        padding-left: 120px;
+    }
+    .big-image{
+        /* margin-top: -130px !important; */
+        width: 460px;
+        height: 460px;
+    }
+    .about .img2-div{
+        padding-left: 50px !important;
+    }
+    .small-image{
+        width: 200px;
+        height: 200px;
+        /* margin-top: -140px; */
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 34px;
+    }
+
+    .about p{
+        font-size: 16px !important;
+    }
+
+    .about h5{
+        font-size: 17px;
+    }
+
+    .about .extra-content div p{
+        font-size: 15px !important;
+    }
+    
+    .heart{
+        font-size: large !important;
+    }
+    .empower-p p{
+        font-size: 16px !important;
+    }
+    .farmer-row{
+        padding-left: 100px !important;
+    }
+    .farmer-row img{
+        height: 480px;
+        width: 480px;
+    }
+
+    .book-caro .container {
+        padding-left: 0px !important;
+    }
+
+    .book1, .book2, .book3, .book4{
+        width: 330px !important;
+    }
+
+    .centers-carousel .container .card {
+        max-width: 100% !important;
+        width: auto !important;
+    }
+
+    .center-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .gallery-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .card img {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .card.hover-card .hover-description h5 {
+        font-size: 15px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 12px !important;
+    }
+
+    .crop h5{
+        font-size: larger !important;
+    }
+
+    .crop p{
+        font-size: 17px !important;
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: medium !important;
+    }
+
+    .center1, .center2, .center3, .center4 {
+        max-width: 100% !important;
+        width: auto !important;
+    }
+
+    .update-row{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .image1, .image2, .image3{
+        width: 680px !important;
+    }
+   
+    .agriculture{
+        padding-top: 40px;
+    }
+
+    .agriculture .acc-btn{
+        font-size: large;
+    }
+
+    .agriculture .acc-body{
+        font-size: medium;
+    }
+    .text h3, .contact1 h3, .links h3{
+        font-size: 30px !important;
+    }
+    .text p{
+        font-size: medium !important;
+    }
+
+    .links{
+        padding-top: 0px !important;
+    }
+    .links h3{
+        padding-left: 0px !important;
+    }
+    .links div a{
+        font-size: medium !important;
+    }
+    .links div{
+        padding-left: 0px !important;
+    }
+
+    .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .contact1{
+        padding-top: 0px !important;
+    }
+    .contact p{
+        font-size: medium !important;
+    }
+    .faq-img{
+        height: 550px;
+        width: 665px !important;
+    }
+}
+@media (min-width: 731px) and (max-width: 767px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+    .about .img-div{
+        padding-left: 150px;
+    }
+    .big-image{
+        width: 460px;
+        height: 460px;
+    }
+    .about .img2-div{
+        padding-left: 80px !important;
+    }
+    .small-image{
+        width: 200px;
+        height: 200px;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 34px;
+    }
+
+    .about p{
+        font-size: 17px !important;
+    }
+
+    .about h5{
+        font-size: 18px;
+    }
+
+    .about .extra-content div p{
+        font-size: 16px !important;
+    }
+    
+    .heart{
+        font-size: larger !important;
+    }
+    .empower-p p{
+        font-size: 17px !important;
+    }
+    .farmer-row{
+        padding-left: 150px !important;
+    }
+    .farmer-row img{
+        height: 480px;
+        width: 480px;
+    }
+
+    .book-caro .container {
+        padding-left: 0px !important;
+    }
+
+    .book1, .book2, .book3, .book4{
+        width: 370px !important;
+        height: 600px !important;
+    }
+
+    .centers-carousel .container .card {
+        max-width: 100% !important;
+        width: auto !important;
+    }
+
+    .center-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .gallery-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .card img {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .card.hover-card .hover-description h5 {
+        font-size: 15px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 12px !important;
+    }
+
+    .crop h5{
+        font-size: 21px !important;
+    }
+
+    .crop p{
+        font-size: 18px !important;
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: medium !important;
+    }
+
+    .center1, .center2, .center3, .center4 {
+        max-width: 100% !important;
+        width: auto !important;
+    }
+    .update-imgs img{
+        height: 330px !important;
+    }
+
+    .update-row{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .image1, .image2, .image3{
+        width: 750px !important;
+        height: 650px !important;
+    }
+   
+    .agriculture{
+        padding-top: 40px;
+    }
+
+    .agriculture .acc-btn{
+        font-size: large;
+    }
+
+    .agriculture .acc-body{
+        font-size: medium;
+    }
+    .text h3, .contact1 h3, .links h3{
+        font-size: 30px !important;
+    }
+    .text p{
+        font-size: medium !important;
+    }
+
+    .links{
+        padding-top: 0px !important;
+    }
+    .links h3{
+        padding-left: 0px !important;
+    }
+    .links div a{
+        font-size: medium !important;
+    }
+    .links div{
+        padding-left: 0px !important;
+    }
+
+    .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .contact1{
+        padding-top: 0px !important;
+    }
+    .contact p{
+        font-size: medium !important;
+    }
+    .faq-img{
+        height: 600px;
+        width: 750px !important;
+    }
+} 
+@media (min-width: 731px) and (max-width: 767px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+    .about .img-div{
+        padding-left: 150px;
+    }
+    .big-image{
+        width: 460px;
+        height: 460px;
+    }
+    .about .img2-div{
+        padding-left: 80px !important;
+    }
+    .small-image{
+        width: 200px;
+        height: 200px;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 34px;
+    }
+
+    .about p{
+        font-size: 17px !important;
+    }
+
+    .about h5{
+        font-size: 18px;
+    }
+
+    .about .extra-content div p{
+        font-size: 16px !important;
+    }
+    
+    .heart{
+        font-size: larger !important;
+    }
+    .empower-p p{
+        font-size: 17px !important;
+    }
+    .farmer-row{
+        padding-left: 150px !important;
+    }
+    .farmer-row img{
+        height: 480px;
+        width: 480px;
+    }
+
+    .book-caro .container {
+        padding-left: 0px !important;
+    }
+
+    .book1, .book2, .book3, .book4{
+        width: 370px !important;
+        height: 600px !important;
+    }
+
+    .centers-carousel .container .card {
+        max-width: 100% !important;
+        width: auto !important;
+    }
+
+    .center-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .gallery-caro .container{
+        padding-left: 0px !important;
+    }
+
+    .card img {
+        width: 90%;
+        height: 500px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .card.hover-card .hover-description h5 {
+        font-size: 15px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 13px !important;
+    }
+
+    .crop h5{
+        font-size: 21px !important;
+    }
+
+    .crop p{
+        font-size: 18px !important;
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: medium !important;
+    }
+
+    .center1, .center2, .center3, .center4 {
+        max-width: 100% !important;
+        width: auto !important;
+    }
+    .update-imgs img{
+        height: 330px !important;
+    }
+
+    .update-row{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .image1, .image2, .image3{
+        width: 750px !important;
+        height: 650px !important;
+    }
+   
+    .agriculture{
+        padding-top: 40px;
+    }
+
+    .agriculture .acc-btn{
+        font-size: large;
+    }
+
+    .agriculture .acc-body{
+        font-size: medium;
+    }
+    .text h3, .contact1 h3, .links h3{
+        font-size: 30px !important;
+    }
+    .text p{
+        font-size: medium !important;
+    }
+
+    .links{
+        padding-top: 0px !important;
+    }
+    .links h3{
+        padding-left: 0px !important;
+    }
+    .links div a{
+        font-size: medium !important;
+    }
+    .links div{
+        padding-left: 0px !important;
+    }
+
+    .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .contact1{
+        padding-top: 0px !important;
+    }
+    .contact p{
+        font-size: medium !important;
+    }
+    .faq-img{
+        height: 600px;
+        width: 750px !important;
+    }
+} 
+@media (min-width: 768px) and (max-width: 850px){
+    .about .img-div{
+        padding-left: 0px !important;
+    }
+    .big-image{
+        width: 330px;
+        height: 330px;
+    }
+    .small-image{
+        width: 140px;
+        height: 140px;
+    }
+    .hover-card .hover-description h5{
+        font-size: smaller !important;
+    }
+    .hover-card .hover-description p{
+        font-size: x-small !important;
+    }
+    .empower-p p{
+        font-size: 13px !important;
+    }
+    .farmer-row img{
+        height: 230px;
+        width: 230px;
+    }
+    .crop i{
+        font-size: medium !important;
+    }
+    .faq-img{
+        height: 300px;
+        width: 350px !important;
+    }
+     .agriculture .acc-btn{
+        font-size: small;
+    }
+
+    .agriculture .acc-body{
+        font-size: smaller;
+    }
+
+    .agriculture h1{
+        font-size: larger !important;
+    }
+    
+} 
+@media (min-width: 851px) and (max-width: 950px){
+    .about .img-div{
+        padding-left: 0px !important;
+    }
+    .big-image{
+        width: 330px;
+        height: 330px;
+    }
+    .small-image{
+        width: 150px;
+        height: 150px;
+    }
+    .hover-card .hover-description h5{
+        font-size: smaller !important;
+    }
+    .hover-card .hover-description p{
+        font-size: x-small !important;
+    }
+    .empower-p p{
+        font-size: 15px !important;
+    }
+    .farmer-row img{
+        height: 230px;
+        width: 230px;
+    }
+    .crop i{
+        font-size: medium !important;
+    }
+    .faq-img{
+        height: 300px;
+        width: 350px !important;
+    }
+     .agriculture .acc-btn{
+        font-size: medium;
+    }
+
+    .agriculture .acc-body{
+        font-size: small;
+    }
+
+    .agriculture h1{
+        font-size: x-large !important;
+    }
+    
+}
+@media (min-width: 951px) and (max-width: 1050px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+    .about .img-div{
+        padding-left: 40px !important;
+    }
+    .big-image{
+        width: 380px;
+        height: 380px;
+    }
+    .small-image{
+        width: 150px;
+        height: 150px;
+    }
+    .empower-p p{
+        font-size: 15px !important;
+    }
+    .farmer-row img{
+        height: 280px;
+        width: 280px;
+    }
+    .crop h5{
+        font-size: 23px !important;
+    }
+
+    .crop p{
+        font-size: large !important;
+        padding-left: 28px;
+    }
+
+    .crop i{
+        font-size: medium !important;
+    }
+    .faq-img{
+        height: 400px;
+        width: 470px !important;
+    }
+     .agriculture .acc-btn{
+        font-size: 17px;
+    }
+
+    .agriculture .acc-body{
+        font-size: medium;
+    }
+}
+@media (min-width: 1051px) and (max-width: 1150px){
+    .empower-p p{
+        font-size: 15px !important;
+    }
+    .faq-img{
+        height: 400px;
+        width: 470px !important;
+    }
+    
+}   
+@media (min-width: 1151px) and (max-width: 1300px){
+    .navbar-nav li{
+        font-size: larger !important;
+    }
+    .big-image{
+        width:  450px;
+        height: 450px;
+    }
+    .small-image{
+        width: 200px;
+        height: 200px;
+    }
+     .empower-p p{
+        font-size: 15px !important;
+    }
+     .crop h5{
+        font-size: 23px !important;
+    }
+
+    .crop p{
+        font-size: large !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: medium !important;
+    }
+
+    .faq-img{
+        height: 440px;
+        width: 550px !important;
+    }
+}
+@media (min-width: 1301px) and (max-width: 1399px){
+   
+    .navbar-nav li{
+        font-size: larger !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 40px !important;
+    }
+    .big-image{
+        width:  500px;
+        height: 500px;
+    }
+    .small-image{
+        width: 200px;
+        height: 200px;
+    }
+    .about p{
+        font-size: 18px !important;
+    }
+
+    .about h5{
+        font-size: 19px;
+    }
+
+    .about .extra-content div p{
+        font-size: 18px !important;
+    }
+    
+    .heart{
+        font-size: x-large !important;
+    }
+     .empower-p p{
+        font-size: 17px !important;
+    }
+     .crop h5{
+        font-size: 23px !important;
+    }
+
+    .crop p{
+        font-size: large !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: medium !important;
+    }
+
+    .faq-img{
+        height: 440px;
+        width: 550px !important;
+    }
+
+     .farmer-row img{
+        height: 360px;
+        width: 360px;
+    }
+}
+@media (min-width: 1400px){
+   
+    .navbar-nav li{
+        font-size: 18px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 43px !important;
+    }
+    .big-image{
+        width:  500px;
+        height: 500px;
+    }
+    .small-image{
+        width: 200px;
+        height: 200px;
+    }
+    .about p{
+        font-size: 19px !important;
+    }
+
+    .about h5{
+        font-size: 20px;
+    }
+
+    .about .extra-content div p{
+        font-size: 19px !important;
+    }
+    
+    .heart{
+        font-size: x-large !important;
+    }
+     .empower-p p{
+        font-size: 19px !important;
+    }
+     .crop h5{
+        font-size: 25px !important;
+    }
+
+    .crop p{
+        font-size: larger !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: 17px !important;
+    }
+
+    .faq-img{
+        height: 500px;
+        width: 650px !important;
+    }
+
+     .farmer-row img{
+        height: 360px;
+        width: 360px;
+    }
+     .agriculture .acc-btn{
+        font-size: 22px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 19px;
+    }
+
+     .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 36px !important;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 18px !important;
+    }
+
+}
+@media (min-width: 1401px) and (max-width: 1510px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+   
+    .navbar-nav li{
+        font-size: 18px !important;
+    }
+    .banner1{
+        width: 1400px !important;
+        height: 650px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 43px !important;
+    }
+    #about .about{
+       padding-top: 150px !important;
+    }
+    .img-div{
+        padding-left: 100px !important;
+    }
+    .big-image{
+        width:  500px;
+        height: 500px;
+    }
+    .small-image{
+        width: 230px;
+        height: 230px;
+    }
+    .about p{
+        font-size: 20px !important;
+    }
+
+    .about h5{
+        font-size: 22px;
+    }
+
+    .about .extra-content div p{
+        font-size: 19px !important;
+    }
+    #empowering div{
+        padding-left: 10px !important;
+    }
+    
+    .heart{
+        font-size: x-large !important;
+    }
+     .empower-p p{
+        font-size: 19px !important;
+    }
+     .crop h5{
+        font-size: 27px !important;
+    }
+
+    .crop p{
+        font-size: 20px !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: 19px !important;
+    }
+
+    .faq-img{
+        height: 500px;
+        width: 650px !important;
+    }
+
+     .farmer-row img{
+        height: 380px;
+        width: 380px;
+    }
+     .agriculture .acc-btn{
+        font-size: 23px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 20px;
+    }
+
+    #news div{
+        padding-left: 10px !important;
+    }
+
+     .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 36px !important;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 18px !important;
+    }
+
+}
+@media (min-width: 1511px) and (max-width: 1635px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+   
+    .navbar-nav li{
+        font-size: 18px !important;
+    }
+
+    .logo{
+        width: 120px;
+        height: 120px !important;
+    }
+    .logo-div h2{
+        font-size: 45px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 20px !important;
+    }
+    .footer-logos{
+        width: 200px !important;
+        height: 80px;
+    }
+    .banner1{
+        width: 1700px !important;
+        height: 700px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 48px !important;
+    }
+    #about .about{
+       padding-top: 200px !important;
+    }
+    .img-div{
+        padding-left: 100px !important;
+    }
+    .big-image{
+        width:  500px;
+        height: 500px;
+    }
+    .small-image{
+        width: 230px;
+        height: 230px;
+    }
+    .update-imgs img{
+        height: 320px !important;
+    }
+    .about p{
+        font-size: 20px !important;
+    }
+
+    .about h5{
+        font-size: 22px;
+    }
+
+    .about .extra-content div p{
+        font-size: 19px !important;
+    }
+    #empowering div{
+        padding-left: 10px !important;
+    }
+    
+    .heart{
+        font-size: x-large !important;
+    }
+    .empower-p p{
+        font-size: 21px !important;
+    }
+    .crop h5{
+        font-size: 29px !important;
+    }
+
+    .crop p{
+        font-size: 22px !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: 21px !important;
+    }
+
+    .faq-img{
+        height: 600px;
+        width: 750px !important;
+    }
+
+     .farmer-row img{
+        height: 410px;
+        width: 410px;
+    }
+     .agriculture .acc-btn{
+        font-size: 23px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 20px;
+    }
+
+    #news div{
+        padding-left: 10px !important;
+    }
+
+     .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 36px !important;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 18px !important;
+    }
+
+    .copyright p{
+        font-size: 22px !important;
+    }
+
+    .copyright h6{
+        font-size: 19px !important;
+    }
+}
+@media (min-width: 1636px) and (max-width: 1750px){
+    /* .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    } */
+   
+    .navbar-nav li{
+        font-size: 18px !important;
+    }
+
+    .logo{
+        width: 120px;
+        height: 120px !important;
+    }
+    .logo-div h2{
+        font-size: 40px !important;
+    }
+     .logo-div div .paragraph {
+        font-size: 20px !important;
+    }
+    .footer-logos{
+        width: 200px !important;
+        height: 80px;
+    }
+    .banner1{
+        width: 1900px !important;
+        height: 800px !important;
+    }
+    .heading{
+        font-size: 80px !important;
+    }
+    .content h3{
+        font-size: 40px !important;
+    }
+    .content h6{
+        font-size: 30px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 48px !important;
+    }
+    #about .about{
+       padding-top: 250px !important;
+    }
+    /* .img-div{
+        padding-left: 100px !important;
+    } */
+    .big-image{
+        width:  550px;
+        height: 550px;
+    }
+    .small-image{
+        width: 250px;
+        height: 250px;
+    }
+    .update-imgs img{
+        height: 320px !important;
+    }
+    .about p{
+        font-size: 23px !important;
+    }
+
+    .about h5{
+        font-size: 26px;
+    }
+
+    .about .extra-content div p{
+        font-size: 22px !important;
+    }
+    #empowering div{
+        padding-left: 10px !important;
+    }
+    
+    .heart{
+        font-size: xx-large !important;
+    }
+    .empower-p i{
+        font-size: larger;
+    }
+    .empower-p p{
+        font-size: 21px !important;
+    }
+    .crop h5{
+        font-size: 29px !important;
+    }
+
+    .crop p{
+        font-size: 22px !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: 21px !important;
+    }
+
+    .faq-img{
+        height: 550px;
+        /* width: 750px !important; */
+    }
+
+     .farmer-row img{
+        height: 410px;
+        width: 410px;
+    }
+     .agriculture .acc-btn{
+        font-size: 23px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 20px;
+    }
+
+    #news div{
+        padding-left: 10px !important;
+    }
+
+     .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 36px !important;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 18px !important;
+    }
+
+    .copyright p{
+        font-size: 22px !important;
+    }
+
+    .copyright h6{
+        font-size: 19px !important;
+    }
+}
+@media (min-width: 1751px) and (max-width: 1850px){
+    .navbar-nav li{
+        font-size: 24px !important;
+    }
+    .logo{
+        width: 120px;
+        height: 120px !important;
+    }
+    .logo-div h2{
+        font-size: 55px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 22px !important;
+    }
+    .footer-logos{
+        width: 250px !important;
+        height: 90px;
+    }
+    .banner1{
+        width: 1900px !important;
+        height: 800px !important;
+    }
+    .heading{
+        font-size: 80px !important;
+    }
+    .content h3{
+        font-size: 40px !important;
+    }
+    .content h6{
+        font-size: 30px !important;
+    }
+    .hover-description h5{
+        font-size: xx-large !important;
+    }
+    .hover-description p{
+        font-size: x-large !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 53px !important;
+    }
+    #about .about{
+       padding-top: 250px !important;
+    }
+    .big-image{
+        width:  550px;
+        height: 550px;
+    }
+
+    .small-image{
+        width: 250px;
+        height: 250px;
+    }
+
+    .update-imgs img{
+        height: 320px !important;
+    }
+
+    .about p{
+        font-size: 23px !important;
+    }
+
+    .about h5{
+        font-size: 27px;
+    }
+
+    .about .extra-content div p{
+        font-size: 22px !important;
+    }
+    /* #empowering div{
+        padding-left: 10px !important;
+    } */
+    
+    .heart{
+        font-size: xx-large !important;
+    }
+    .empower-p i{
+        font-size: x-large;
+    }
+    .empower-p p{
+        font-size: 24px !important;
+    }
+    .crop h5{
+        font-size: 31px !important;
+    }
+
+    .crop p{
+        font-size: 24px !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: 23px !important;
+    }
+
+    .faq-img{
+        height: 550px;
+        /* width: 750px !important; */
+    }
+
+     .farmer-row img{
+        height: 410px;
+        width: 410px;
+    }
+     .agriculture .acc-btn{
+        font-size: 25px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 22px;
+    }
+
+    /* #news div{
+        padding-left: 10px !important;
+    } */
+
+     .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 38px !important;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 21px !important;
+    }
+
+    .copyright p{
+        font-size: 22px !important;
+    }
+
+    .copyright h6{
+        font-size: 19px !important;
+    }
+    .icons li a span{
+        font-size:  30px!important;
+    }
+    .icons li {
+        height: 50px;
+        width: 50px;
+    }
+}
+@media (min-width: 1851px) and (max-width: 2000px){
+    .navbar-nav li{
+        font-size: 24px !important;
+    }
+    .logo{
+        width: 140px;
+        height: 140px !important;
+    }
+    .logo-div h2{
+        font-size: 60px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 26px !important;
+    }
+    .footer-logos{
+        width: 270px !important;
+        height: 110px;
+    }
+    .banner1{
+        width: 2100px !important;
+        height: 900px !important;
+    }
+    .heading{
+        font-size: 90px !important;
+    }
+    .content h3{
+        font-size: 45px !important;
+    }
+    .content h6{
+        font-size: 33px !important;
+    }
+     .card.hover-card .hover-description h5 {
+        font-size: 22px !important;
+    }
+    .card.hover-card .hover-description p {
+        font-size: 18px !important;
+    }
+    .hover-description p{
+        font-size: x-large !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 58px !important;
+    }
+    #about .about{
+       padding-top: 320px !important;
+    }
+    .big-image{
+        width:  550px;
+        height: 550px;
+    }
+
+    .small-image{
+        width: 250px;
+        height: 250px;
+    }
+
+    .update-imgs img{
+        height: 320px !important;
+    }
+
+    .about p{
+        font-size: 25px !important;
+    }
+
+    .about h5{
+        font-size: 29px;
+    }
+
+    .about .extra-content div p{
+        font-size: 22px !important;
+    }
+    /* #empowering div{
+        padding-left: 10px !important;
+    } */
+    
+    .heart{
+        font-size: xx-large !important;
+    }
+    .book-card .card-body h5{
+        font-size: xx-large !important;
+    }
+    .empower-p i{
+        font-size: x-large;
+    }
+    .empower-p p{
+        font-size: 24px !important;
+    }
+    .crop h5{
+        font-size: 31px !important;
+    }
+
+    .crop p{
+        font-size: 24px !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: 23px !important;
+    }
+
+    .faq-img{
+        height: 550px;
+        /* width: 750px !important; */
+    }
+
+     .farmer-row img{
+        height: 410px;
+        width: 410px;
+    }
+     .agriculture .acc-btn{
+        font-size: 25px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 22px;
+    }
+
+    /* #news div{
+        padding-left: 10px !important;
+    } */
+
+     .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 38px !important;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 21px !important;
+    }
+
+    .copyright p{
+        font-size: 23px !important;
+    }
+
+    .copyright h6{
+        font-size: 21px !important;
+    }
+    .icons li a span{
+        font-size:  30px!important;
+    }
+    .icons li {
+        height: 50px;
+        width: 50px;
+    }
+}
+@media (min-width: 2001px) and (max-width: 2200px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav li{
+        font-size: 27px !important;
+    }
+    .logo{
+        width: 160px;
+        height: 160px !important;
+    }
+    .logo-div h2{
+        font-size: 65px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 28px !important;
+    }
+    .footer-logos{
+        width: 290px !important;
+        height: 130px;
+    }
+    .banner1{
+        width: 2300px !important;
+        height: 950px !important;
+    }
+    .heading{
+        font-size: 100px !important;
+    }
+    .content h3{
+        font-size: 50px !important;
+    }
+    .content h6{
+        font-size: 35px !important;
+    }
+    .hover-description h5{
+        font-size: 33px !important;
+    }
+    .hover-description p{
+        font-size: 29px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 62px !important;
+    }
+    #about .about{
+       padding-top: 400px !important;
+    }
+    .img-div{
+        padding-left: 150px !important;
+    }
+    .big-image{
+        width:  630px;
+        height: 630px;
+    }
+    .img2-div{
+        padding-left: 90px !important;
+    }
+
+    .small-image{
+        width: 290px;
+        height: 290px;
+    }
+
+    .update-imgs img{
+        height: 320px !important;
+    }
+
+    .about p{
+        font-size: 28px !important;
+    }
+
+    .about h5{
+        font-size: 33px;
+    }
+
+    .about .extra-content div p{
+        font-size: 27px !important;
+    }
+    /* #empowering div{
+        padding-left: 10px !important;
+    } */
+    
+    .heart{
+        font-size: xx-large !important;
+    }
+    .book-card .card-body h5{
+        font-size: xx-large !important;
+    }
+    .empower-p i{
+        font-size: x-large;
+    }
+    .empower-p p{
+        font-size: 25px !important;
+    }
+    .crop h5{
+        font-size: 36px !important;
+    }
+
+    .crop p{
+        font-size: 28px !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: 28px !important;
+    }
+
+    .update-imgs img{
+        height: 480px !important;
+    }
+
+    .faq-img{
+        height: 680px;
+        width: 1030px !important;
+    }
+
+    .farmer-row img{
+        height: 480px !important;
+        width: 480px !important;
+    }
+     .agriculture .acc-btn{
+        font-size: 30px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 27px;
+    }
+
+    /* #news div{
+        padding-left: 10px !important;
+    } */
+
+     .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 38px !important;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 21px !important;
+    }
+
+    .copyright p{
+        font-size: 27px !important;
+    }
+
+    .copyright h6{
+        font-size: 26px !important;
+    }
+    .icons li a span{
+        font-size: 33px !important;
+    }
+    .icons li {
+        height: 60px;
+        width: 60px;
+    }
+}
+@media (min-width: 2201px) and (max-width: 2345px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav li{
+        font-size: 30px !important;
+    }
+    .logo{
+        width: 180px;
+        height: 180px !important;
+    }
+    .logo-div h2{
+        font-size: 68px !important;
+    }
+     .logo-div div .paragraph {
+        font-size: 30px !important;
+    }
+    .footer-logos{
+        width: 310px !important;
+        height: 150px;
+    }
+    .banner1{
+        width: 2500px !important;
+        height: 1000px !important;
+    }
+    .heading{
+        font-size: 120px !important;
+    }
+    .content h3{
+        font-size: 60px !important;
+    }
+    .content h6{
+        font-size: 40px !important;
+    }
+    .hover-description h5{
+        font-size: 35px !important;
+    }
+    .hover-description p{
+        font-size: 31px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 68px !important;
+    }
+    #about .about{
+       padding-top: 450px !important;
+    }
+    .img-div{
+        padding-left: 150px !important;
+    }
+    .big-image{
+        width:  720px;
+        height: 720px;
+    }
+    .img2-div{
+        padding-left: 90px !important;
+    }
+
+    .small-image{
+        width: 310px;
+        height: 310px;
+    }
+
+    .update-imgs img{
+        height: 320px !important;
+    }
+
+    .about p{
+        font-size: 30px !important;
+    }
+
+    .about h5{
+        font-size: 35px;
+    }
+
+    .about .extra-content div p{
+        font-size: 27px !important;
+    }
+    /* #empowering div{
+        padding-left: 10px !important;
+    } */
+    
+    .heart{
+        font-size: xx-large !important;
+    }
+    .book-card .card-body h5{
+        font-size: xx-large !important;
+    }
+    .empower-p i{
+        font-size: xx-large;
+    }
+    .empower-p p{
+        font-size: 28px !important;
+    }
+    .crop h5{
+        font-size: 40px !important;
+    }
+
+    .crop p{
+        font-size: 33px !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: 31px !important;
+    }
+
+    .update-imgs img{
+        height: 500px !important;
+    }
+
+    .faq-img{
+        height: 680px;
+        width: 1030px !important;
+    }
+
+    .farmer-row img{
+        height: 550px !important;
+        width: 550px !important;
+    }
+     .agriculture .acc-btn{
+        font-size: 34px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 30px;
+    }
+
+    /* #news div{
+        padding-left: 10px !important;
+    } */
+
+     .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 48px !important;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 26px !important;
+    }
+
+    .copyright p{
+        font-size: 29px !important;
+    }
+
+    .copyright h6{
+        font-size: 28px !important;
+    }
+    .icons li a span{
+        font-size: 33px !important;
+    }
+    .icons li {
+        height: 60px;
+        width: 60px;
+    }
+}
+@media (min-width: 2346px) and (max-width: 2500px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav li{
+        font-size: 32px !important;
+    }
+    .logo{
+        width: 200px;
+        height: 200px !important;
+    }
+    .logo-div h2{
+        font-size: 73px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 28px !important;
+    }
+    .footer-logos{
+        width: 330px !important;
+        height: 170px;
+    }
+    .banner1{
+        width: 2700px !important;
+        height: 1100px !important;
+    }
+    .heading{
+        font-size: 130px !important;
+    }
+    .content h3{
+        font-size: 60px !important;
+    }
+    .content h6{
+        font-size: 45px !important;
+    }
+    .hover-description h5{
+        font-size: 40px !important;
+    }
+    .hover-description p{
+        font-size: 33px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 73px !important;
+    }
+    #about .about{
+       padding-top: 550px !important;
+    }
+    .img-div{
+        padding-left: 150px !important;
+    }
+    .big-image{
+        width:  780px;
+        height: 780px;
+    }
+    .img2-div{
+        padding-left: 90px !important;
+    }
+
+    .small-image{
+        width: 310px;
+        height: 310px;
+    }
+
+    .update-imgs img{
+        height: 320px !important;
+    }
+
+    .about p{
+        font-size: 33px !important;
+    }
+
+    .about h5{
+        font-size: 37px;
+    }
+
+    .about .extra-content div p{
+        font-size: 30px !important;
+    }
+    /* #empowering div{
+        padding-left: 10px !important;
+    } */
+    
+    .heart{
+        font-size: 33px !important;
+    }
+    .book-card .card-body h5{
+        font-size: xx-large !important;
+    }
+    .empower-p i{
+        font-size: 28px;
+    }
+    .empower-p p{
+        font-size: 32px !important;
+    }
+    .crop h5{
+        font-size: 43px !important;
+    }
+
+    .crop p{
+        font-size: 33px !important;
+        /* padding-left: 28px; */
+    }
+
+    .crop i{
+        font-size: 34px !important;
+    }
+
+    .update-imgs img{
+        height: 550px !important;
+    }
+
+    .faq-img{
+        height: 730px;
+        width: 1150px !important;
+    }
+
+    .farmer-row img{
+        height: 650px !important;
+        width: 650px !important;
+    }
+     .agriculture .acc-btn{
+        font-size: 36px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 33px;
+    }
+
+    /* #news div{
+        padding-left: 10px !important;
+    } */
+
+     .video-caro video, .video-caro iframe{
+        height: 480px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 48px !important;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 26px !important;
+    }
+
+    .copyright p{
+        font-size: 29px !important;
+    }
+
+    .copyright h6{
+        font-size: 28px !important;
+    }
+    .icons li a span{
+        font-size: 33px !important;
+    }
+    .icons li {
+        height: 60px;
+        width: 60px;
+    }
+    #footer.foot {
+        background-size: 100% auto; /* ya 80% auto / contain / cover — jo tumhein suit kare */
+       
+    }
+}
+@media (min-width: 2501px) and (max-width: 2700px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav li{
+        font-size: 33px !important;
+    }
+    .carousel-indicators button{
+        width: 60px !important;
+        height: 5px !important;
+    }
+    .logo{
+        width: 210px;
+        height: 200px !important;
+    }
+    .logo-div h2{
+        font-size: 74px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 36px !important;
+    }
+    .footer-logos{
+        width: 340px !important;
+        height: 170px;
+    }
+    .banner1{
+        width: 2900px !important;
+        height: 1200px !important;
+    }
+    .heading{
+        font-size: 140px !important;
+    }
+    .content h3{
+        font-size: 65px !important;
+    }
+    .content h6{
+        font-size: 50px !important;
+    }
+    .hover-description h5{
+        font-size: 45px !important;
+    }
+    .hover-description p{
+        font-size: 36px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 76px !important;
+    }
+    #about .about{
+       padding-top: 650px !important;
+    }
+    .img-div{
+        padding-left: 190px !important;
+    }
+    .big-image{
+        width:  780px;
+        height: 780px;
+    }
+    .img2-div{
+        padding-left: 130px !important;
+    }
+
+    .small-image{
+        width: 310px;
+        height: 310px;
+    }
+
+    .update-imgs img{
+        height: 320px !important;
+    }
+
+    .about p{
+        font-size: 33px !important;
+    }
+
+    .about h5{
+        font-size: 39px;
+    }
+
+    .about .extra-content div p{
+        font-size: 32px !important;
+    }
+    /* #empowering div{
+        padding-left: 10px !important;
+    } */
+    
+    .heart{
+        font-size: 33px !important;
+    }
+    #centers{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: xx-large !important;
+    }
+    .empower-p i{
+        font-size: 33px;
+    }
+    .empower-p p{
+        padding-left: 20px !important;
+        font-size: 34px !important;
+    }
+    #books{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 38px !important;
+    }
+    #news{
+         padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .crop h5{
+        padding-left: 50px !important;
+        font-size: 47px !important;
+    }
+
+    .crop p{
+        font-size: 33px !important;
+        padding-left: 140px;
+    }
+
+    .crop i{
+        padding-left: 50px !important;
+        font-size: 37px !important;
+    }
+
+    .crop1, .crop2, .crop3, .crop4, .crop5, .crop6{
+        padding-top: 20px !important;
+    }
+
+    .update-imgs img{
+        height: 570px !important;
+    }
+
+    #gallery{
+         padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    #cardCarousel4{
+        margin-top: 40px;
+    }
+
+    #faq{
+         padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    .faq-img{
+        height: 780px;
+        width: 1250px !important;
+    }
+
+    .farmer-row img{
+        height: 650px !important;
+        width: 650px !important;
+    }
+    #videos{
+         padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 130px;
+    }
+    #cardCarousel3{
+        margin-top: 50px;
+    }
+     .agriculture .acc-btn{
+        font-size: 36px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 33px;
+    }
+
+    /* #news div{
+        padding-left: 10px !important;
+    } */
+
+     .video-caro video, .video-caro iframe{
+        height: 540px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 53px !important;
+    }
+    .contact h5{
+        font-size: 40px;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 29px !important;
+    }
+
+    .copyright p{
+        font-size: 31px !important;
+    }
+
+    .copyright h6{
+        font-size: 30px !important;
+    }
+    .icons li a span{
+        font-size: 33px !important;
+    }
+    .icons li {
+        height: 60px;
+        width: 60px;
+    }
+    #footer.foot {
+        background-size: 100% auto; /* ya 80% auto / contain / cover — jo tumhein suit kare */
+       
+    }
+}
+@media (min-width: 2701px) and (max-width: 2900px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav li{
+        font-size: 35px !important;
+    }
+    .carousel-indicators button{
+        width: 60px !important;
+        height: 5px !important;
+    }
+    .logo{
+        width: 210px;
+        height: 200px !important;
+    }
+    .logo-div h2{
+        font-size: 76px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 38px !important;
+    }
+    .footer-logos{
+        width: 340px !important;
+        height: 170px;
+    }
+   
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        transform: scale(1.8); /* Increase size as needed */
+    }
+
+    .banner1{
+        width: 3000px !important;
+        height: 1300px !important;
+    }
+    .heading{
+        font-size: 160px !important;
+    }
+    .content h3{
+        font-size: 65px !important;
+    }
+    .content h6{
+        font-size: 50px !important;
+    }
+    .hover-description h5{
+        font-size: 45px !important;
+    }
+    .hover-description p{
+        font-size: 36px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 83px !important;
+    }
+    #about .about{
+       padding-top: 800px !important;
+    }
+    .img-div{
+        padding-left: 190px !important;
+    }
+    .big-image{
+        width:  860px;
+        height: 860px;
+    }
+    .img2-div{
+        padding-left: 130px !important;
+    }
+
+    .small-image{
+        width: 330px;
+        height: 330px;
+    }
+
+    .update-imgs img{
+        height: 320px !important;
+    }
+
+    .about p{
+        font-size: 37px !important;
+    }
+
+    .about h5{
+        font-size: 41px;
+    }
+
+    .about .extra-content div p{
+        font-size: 34px !important;
+    }
+    .heart{
+        font-size: 33px !important;
+    }
+    #centers{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 60px !important;
+    }
+    .update-imgs, .updates-text{
+        margin-top: 120px !important;
+    }
+    .empower-p i{
+        padding-left: 10px;
+        font-size: 36px;
+    }
+    .empower-p p{
+        padding-left: 20px !important;
+        font-size: 36px !important;
+    }
+    #books{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 38px !important;
+    }
+    #news{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .crop h5{
+        padding-left: 50px !important;
+        font-size: 50px !important;
+    }
+
+    .crop p{
+        font-size: 35px !important;
+        padding-left: 140px;
+    }
+
+    .crop i{
+        padding-left: 50px !important;
+        font-size: 40px !important;
+    }
+
+    .crop1, .crop2, .crop3, .crop4, .crop5, .crop6{
+        padding-top: 20px !important;
+    }
+
+    .update-imgs img{
+        height: 570px !important;
+    }
+
+    #gallery{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    #cardCarousel4{
+        margin-top: 40px;
+    }
+
+    #faq{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    .faq-img{
+        height: 850px;
+        width: 1350px !important;
+    }
+
+    .farmer-row img{
+        height: 730px !important;
+        width: 730px !important;
+    }
+    #videos{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 130px;
+    }
+    #cardCarousel3{
+        margin-top: 50px;
+    }
+    .agriculture .acc-btn{
+        font-size: 38px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 35px;
+    }
+     .video-caro video, .video-caro iframe{
+        height: 540px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 53px !important;
+    }
+    .contact h5{
+        font-size: 40px;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 29px !important;
+    }
+
+    .copyright p{
+        font-size: 31px !important;
+    }
+
+    .copyright h6{
+        font-size: 30px !important;
+    }
+    .icons li a span{
+        font-size: 33px !important;
+    }
+    .icons li {
+        height: 60px;
+        width: 60px;
+    }
+    #footer.foot {
+        background-size: 100% auto; /* ya 80% auto / contain / cover — jo tumhein suit kare */
+       
+    }
+}
+@media (min-width: 2901px) and (max-width: 3200px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav li{
+        font-size: 38px !important;
+    }
+    .carousel-indicators button{
+        width: 70px !important;
+        height: 5px !important;
+    }
+    .logo{
+        width: 220px;
+        height: 210px !important;
+    }
+    .logo-div h2{
+        font-size: 80px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 42px !important;
+    }
+    .footer-logos{
+        width: 350px !important;
+        height: 180px;
+    }
+   
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        transform: scale(1.8); /* Increase size as needed */
+    }
+
+    .banner1{
+        width: 3200px !important;
+        height: 1400px !important;
+    }
+    .heading{
+        font-size: 160px !important;
+    }
+    .content h3{
+        font-size: 65px !important;
+    }
+    .content h6{
+        font-size: 50px !important;
+    }
+    .hover-description h5{
+        font-size: 45px !important;
+    }
+    .hover-description p{
+        font-size: 36px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 86px !important;
+    }
+    #about .about{
+       padding-top: 950px !important;
+    }
+    .img-div{
+        padding-left: 190px !important;
+    }
+    .big-image{
+        border: 15px solid green !important;
+        width:  900px;
+        height: 900px;
+    }
+    .img2-div{
+        padding-left: 130px !important;
+    }
+
+    .small-image{
+        width: 360px;
+        height: 360px;
+    }
+
+    .update-imgs img{
+        height: 320px !important;
+    }
+
+    .about p{
+        font-size: 39px !important;
+    }
+
+    .about h5{
+        font-size: 43px;
+    }
+
+    .about .extra-content div p{
+        font-size: 36px !important;
+    }
+    .heart{
+        font-size: 37px !important;
+    }
+    #centers{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 60px !important;
+    }
+    .update-imgs, .updates-text{
+        margin-top: 120px !important;
+    }
+    .empower-p i{
+        padding-left: 10px;
+        font-size: 38px;
+    }
+    .empower-p p{
+        padding-left: 20px !important;
+        font-size: 38px !important;
+    }
+    #books{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 50px !important;
+    }
+    #news{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .crop h5{
+        padding-left: 50px !important;
+        font-size: 55px !important;
+    }
+
+    .crop p{
+        font-size: 40px !important;
+        padding-left: 140px;
+    }
+
+    .crop i{
+        padding-left: 50px !important;
+        font-size: 45px !important;
+    }
+
+    .crop1, .crop2, .crop3, .crop4, .crop5, .crop6{
+        padding-top: 20px !important;
+    }
+
+    .update-imgs img{
+        height: 570px !important;
+    }
+
+    #gallery{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    #cardCarousel4{
+        margin-top: 40px;
+    }
+
+    #faq{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    .faq-img{
+        height: 1100px;
+        width: 1450px !important;
+    }
+
+    .agriculture .accordion{
+        margin-top: 50px !important;
+    }
+
+    .farmer-row img{
+        height: 730px !important;
+        width: 730px !important;
+    }
+    #videos{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 130px;
+    }
+    #cardCarousel3{
+        margin-top: 50px;
+    }
+    .agriculture .acc-btn{
+        font-size: 43px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 40px;
+    }
+     .video-caro video, .video-caro iframe{
+        height: 800px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 58px !important;
+    }
+    .contact h5{
+        font-size: 43px;
+    }
+
+    .text p, .links div a,  .contact p{
+        font-size: 33px !important;
+    }
+
+    .copyright p{
+        font-size: 34px !important;
+    }
+
+    .copyright h6{
+        font-size: 34px !important;
+    }
+    .icons li a span{
+        font-size: 36px !important;
+    }
+    .icons li {
+        height: 70px;
+        width: 70px;
+    }
+    #footer.foot {
+        background-size: 100% auto; /* ya 80% auto / contain / cover — jo tumhein suit kare */
+       
+    }
+}
+@media (min-width: 3201px) and (max-width: 3400px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav li{
+        font-size: 42px !important;
+    }
+    .carousel-indicators button{
+        width: 85px !important;
+        height: 7px !important;
+    }
+    .logo{
+        width: 240px;
+        height: 210px !important;
+    }
+    .logo-div h2{
+        font-size: 105px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 46px !important;
+    }
+    .footer-logos{
+        width: 390px !important;
+        height: 180px;
+    }
+   
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        transform: scale(2.3); /* Increase size as needed */
+    }
+
+    .banner1{
+        /* width: fit-content !important; */
+        width: 4000px !important;
+        height: 1500px !important;
+    }
+    .heading{
+        font-size: 180px !important;
+    }
+    .content h3{
+        font-size: 73px !important;
+    }
+    .content h6{
+        font-size: 60px !important;
+    }
+    .hover-description h5{
+        font-size: 48px !important;
+    }
+    .hover-description p{
+        font-size: 37px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 93px !important;
+    }
+    #about .about{
+       padding-top: 1050px !important;
+    }
+    .img-div{
+        padding-left: 220px !important;
+    }
+    .big-image{
+        border: 20px solid green !important;
+        width:  1050px;
+        height: 1050px;
+    }
+    .img2-div{
+        padding-left: 130px !important;
+    }
+
+    .small-image{
+        border: 20px solid rgb(51, 206, 51);
+        width: 390px;
+        height: 390px;
+    }
+
+    .update-imgs div img{
+        height: 750px !important;
+    }
+
+    .about p{
+        font-size: 43px !important;
+    }
+
+    .about h5{
+        font-size: 47px;
+    }
+
+    .about .extra-content div p{
+        font-size: 39px !important;
+    }
+    .heart{
+        font-size: 43px !important;
+    }
+    .empower-text, .farmer-row, .empower-text2{
+        margin-top: 150px !important;
+    }
+    #centers{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 60px !important;
+    }
+    .update-imgs, .updates-text{
+        margin-top: 120px !important;
+    }
+    .empower-p i{
+        padding-left: 10px;
+        font-size: 43px;
+    }
+    .empower-p p{
+        padding-left: 20px !important;
+        font-size: 43px !important;
+    }
+    #books{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 65px !important;
+    }
+    #news{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .crop h5{
+        padding-left: 60px !important;
+        font-size: 65px !important;
+    }
+
+    .crop p{
+        font-size: 50px !important;
+        padding-left: 200px;
+    }
+
+    .crop i{
+        padding-left: 75px !important;
+        font-size: 55px !important;
+    }
+
+    .crop1, .crop2, .crop3, .crop4, .crop5, .crop6{
+        padding-top: 20px !important;
+    }
+
+    .update-imgs img{
+        height: 570px !important;
+    }
+
+    #gallery{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    #cardCarousel4{
+        margin-top: 40px;
+    }
+
+    #faq{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    .faq-img{
+        height: 1300px;
+        width: 1650px !important;
+    }
+
+    .agriculture .accordion{
+        margin-top: 50px !important;
+    }
+
+    .farmer-row img{
+        height: 830px !important;
+        width: 830px !important;
+    }
+    #videos{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 130px;
+    }
+    #cardCarousel3{
+        margin-top: 50px;
+    }
+    .agriculture .acc-btn{
+        font-size: 50px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 45px;
+    }
+    .video-caro video, .video-caro iframe{
+        height: 1000px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 75px !important;
+    }
+    .contact h5{
+        font-size: 49px;
+    }
+
+    .text p, .links div a,  .contact p{
+        padding-top: 30px !important;
+        font-size: 38px !important;
+    }
+
+    .copyright p{
+        font-size: 40px !important;
+    }
+
+    .copyright h6{
+        font-size: 40px !important;
+    }
+    .icons li a span{
+        font-size: 45px !important;
+    }
+    .icons li {
+        height: 100px;
+        width: 100px;
+    }
+    #footer.foot {
+        background-size: 100% auto; /* ya 80% auto / contain / cover — jo tumhein suit kare */
+       
+    }
+}
+@media (min-width: 3401px) and (max-width: 3600px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav li{
+        font-size: 42px !important;
+    }
+    .carousel-indicators button{
+        width: 85px !important;
+        height: 7px !important;
+    }
+    .logo{
+        width: 240px;
+        height: 210px !important;
+    }
+    .logo-div h2{
+        font-size: 105px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 46px !important;
+    }
+    .footer-logos{
+        width: 390px !important;
+        height: 180px;
+    }
+   
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        transform: scale(2.3); /* Increase size as needed */
+    }
+
+    .banner1{
+        /* width: fit-content !important; */
+        width: 4500px !important;
+        height: 1600px !important;
+    }
+    .heading{
+        font-size: 180px !important;
+    }
+    .content h3{
+        font-size: 73px !important;
+    }
+    .content h6{
+        font-size: 60px !important;
+    }
+    .hover-description h5{
+        font-size: 48px !important;
+    }
+    .hover-description p{
+        font-size: 37px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 93px !important;
+    }
+    #about .about{
+       padding-top: 1050px !important;
+    }
+    .img-div{
+        padding-left: 220px !important;
+    }
+    .big-image{
+        border: 20px solid green !important;
+        width:  1050px;
+        height: 1050px;
+    }
+    .img2-div{
+        padding-left: 130px !important;
+    }
+
+    .small-image{
+        border: 20px solid rgb(51, 206, 51);
+        width: 390px;
+        height: 390px;
+    }
+
+    .update-imgs div img{
+        height: 750px !important;
+    }
+
+    .about p{
+        font-size: 43px !important;
+    }
+
+    .about h5{
+        font-size: 47px;
+    }
+
+    .about .extra-content div p{
+        font-size: 39px !important;
+    }
+    .heart{
+        font-size: 43px !important;
+    }
+    .empower-text, .farmer-row, .empower-text2{
+        margin-top: 150px !important;
+    }
+    #centers{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 60px !important;
+    }
+    .update-imgs, .updates-text{
+        margin-top: 120px !important;
+    }
+    .empower-p i{
+        padding-left: 10px;
+        font-size: 43px;
+    }
+    .empower-p p{
+        padding-left: 20px !important;
+        font-size: 43px !important;
+    }
+    #books{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 65px !important;
+    }
+    #news{
+        padding-top: 150px !important;
+    }
+    .crop h5{
+        padding-left: 60px !important;
+        font-size: 65px !important;
+    }
+
+    .crop p{
+        font-size: 50px !important;
+        padding-left: 200px;
+    }
+
+    .crop i{
+        padding-left: 75px !important;
+        font-size: 55px !important;
+    }
+
+    .crop1, .crop2, .crop3, .crop4, .crop5, .crop6{
+        padding-top: 20px !important;
+    }
+
+    .update-imgs img{
+        height: 570px !important;
+    }
+
+    #gallery{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    #cardCarousel4{
+        margin-top: 40px;
+    }
+
+    #faq{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    .faq-img{
+        height: 1300px;
+        width: 1650px !important;
+    }
+
+    .agriculture .accordion{
+        margin-top: 50px !important;
+    }
+
+    .farmer-row img{
+        height: 830px !important;
+        width: 830px !important;
+    }
+    #videos{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 130px;
+    }
+    #cardCarousel3{
+        margin-top: 50px;
+    }
+    .agriculture .acc-btn{
+        font-size: 50px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 45px;
+    }
+    .video-caro video, .video-caro iframe{
+        height: 1000px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 75px !important;
+    }
+    .contact h5{
+        font-size: 49px;
+    }
+
+    .text p, .links div a,  .contact p{
+        padding-top: 30px !important;
+        font-size: 38px !important;
+    }
+
+    .copyright p{
+        font-size: 40px !important;
+    }
+
+    .copyright h6{
+        font-size: 40px !important;
+    }
+    .icons li a span{
+        font-size: 45px !important;
+    }
+    .icons li {
+        height: 100px;
+        width: 100px;
+    }
+    #footer.foot {
+        background-size: 100% auto; /* ya 80% auto / contain / cover — jo tumhein suit kare */
+       
+    }
+}
+@media (min-width: 3601px) and (max-width: 3800px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav li{
+        font-size: 42px !important;
+    }
+    .carousel-indicators button{
+        width: 85px !important;
+        height: 7px !important;
+    }
+    .logo{
+        width: 240px;
+        height: 210px !important;
+    }
+    .logo-div h2{
+        font-size: 105px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 46px !important;
+    }
+    .footer-logos{
+        width: 390px !important;
+        height: 180px;
+    }
+   
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        transform: scale(2.3); /* Increase size as needed */
+    }
+
+    .banner1{
+        /* width: fit-content !important; */
+        width: 5500px !important;
+        height: 1700px !important;
+    }
+    .heading{
+        font-size: 180px !important;
+    }
+    .content h3{
+        font-size: 73px !important;
+    }
+    .content h6{
+        font-size: 60px !important;
+    }
+    .hover-description h5{
+        font-size: 48px !important;
+    }
+    .hover-description p{
+        font-size: 37px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 95px !important;
+    }
+    #about .about{
+       padding-top: 1250px !important;
+    }
+    .img-div{
+        padding-left: 220px !important;
+    }
+    .big-image{
+        border: 20px solid green !important;
+        width:  1250px;
+        height: 1250px;
+    }
+    .img2-div{
+        padding-left: 130px !important;
+    }
+
+    .small-image{
+        border: 20px solid rgb(51, 206, 51);
+        width: 390px;
+        height: 390px;
+    }
+
+    .update-imgs div img{
+        height: 750px !important;
+    }
+
+    .about p{
+        font-size: 47px !important;
+    }
+
+    .about h5{
+        font-size: 53px;
+    }
+
+    .about .extra-content div p{
+        font-size: 46px !important;
+    }
+    .heart{
+        font-size: 50px !important;
+    }
+    #centers{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        margin-top: 150px !important;
+    }
+    #empowering{
+        padding-top: 150px !important;
+        padding-right: 150px !important;
+        padding-left: 150px !important;
+    }
+    .empower-text, .farmer-row, .empower-text2{
+        margin-top: 150px !important;
+    }
+    #centers{
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 60px !important;
+    }
+    .update-imgs, .updates-text{
+        margin-top: 120px !important;
+    }
+    .empower-p i{
+        padding-top: 10px !important;
+        padding-left: 10px;
+        font-size: 48px;
+    }
+    .empower-p p{
+        padding-left: 20px !important;
+        font-size: 46px !important;
+    }
+    #books{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 300px !important;
+    }
+    /* .book-carousel{
+        padding-top: 300px !important;
+        margin-top: 450px !important;
+    } */
+    .book-card .card-body h5{
+        font-size: 65px !important;
+    }
+    #news{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .crop h5{
+        padding-left: 60px !important;
+        font-size: 65px !important;
+    }
+
+    .crop p{
+        font-size: 50px !important;
+        padding-left: 200px;
+    }
+
+    .crop i{
+        padding-left: 75px !important;
+        font-size: 55px !important;
+    }
+
+    .crop1, .crop2, .crop3, .crop4, .crop5, .crop6{
+        padding-top: 20px !important;
+    }
+
+    .update-imgs img{
+        height: 570px !important;
+    }
+
+    #gallery{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    #cardCarousel4{
+        margin-top: 40px;
+    }
+
+    #faq{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    .faq-img{
+        height: 1300px;
+        width: 1650px !important;
+    }
+
+    .agriculture .accordion{
+        margin-top: 50px !important;
+    }
+
+    .farmer-row img{
+        height: 830px !important;
+        width: 830px !important;
+    }
+    #videos{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 130px;
+    }
+    #cardCarousel3{
+        margin-top: 50px;
+    }
+    .agriculture .acc-btn{
+        font-size: 50px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 45px;
+    }
+    .video-caro video, .video-caro iframe{
+        height: 1000px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 75px !important;
+    }
+    .contact h5{
+        font-size: 49px;
+    }
+
+    .text p, .links div a,  .contact p{
+        padding-top: 30px !important;
+        font-size: 38px !important;
+    }
+
+    .copyright p{
+        font-size: 40px !important;
+    }
+
+    .copyright h6{
+        font-size: 40px !important;
+    }
+    .icons li a span{
+        font-size: 45px !important;
+    }
+    .icons li {
+        height: 100px;
+        width: 100px;
+    }
+    #footer.foot {
+        background-size: 100% auto; /* ya 80% auto / contain / cover — jo tumhein suit kare */
+       
+    }
+}
+@media (min-width: 3801px) and (max-width: 4000px){
+    .container, .row {
+        max-width: none !important;
+        overflow-x: hidden !important;
+    }
+
+    .navbar-nav li{
+        font-size: 42px !important;
+    }
+    .carousel-indicators button{
+        width: 85px !important;
+        height: 7px !important;
+    }
+    .logo{
+        width: 240px;
+        height: 210px !important;
+    }
+    .logo-div h2{
+        font-size: 105px !important;
+    }
+    .logo-div div .paragraph {
+        font-size: 46px !important;
+    }
+    .footer-logos{
+        width: 390px !important;
+        height: 180px;
+    }
+   
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        transform: scale(2.3); /* Increase size as needed */
+    }
+
+    .banner1{
+        /* width: fit-content !important; */
+        width: 6500px !important;
+        height: 1800px !important;
+    }
+    .heading{
+        font-size: 180px !important;
+    }
+    .content h3{
+        font-size: 73px !important;
+    }
+    .content h6{
+        font-size: 60px !important;
+    }
+    .hover-description h5{
+        font-size: 48px !important;
+    }
+    .hover-description p{
+        font-size: 37px !important;
+    }
+    .custom-heading, .custom-heading1, .custom-heading2{
+        font-size: 95px !important;
+    }
+    #about .about{
+       padding-top: 1350px !important;
+    }
+    .img-div{
+        padding-left: 220px !important;
+    }
+    .big-image{
+        border: 20px solid green !important;
+        width:  1250px;
+        height: 1250px;
+    }
+    .img2-div{
+        padding-left: 130px !important;
+    }
+
+    .small-image{
+        border: 20px solid rgb(51, 206, 51);
+        width: 390px;
+        height: 390px;
+    }
+
+    .update-imgs div img{
+        height: 750px !important;
+    }
+
+    .about p{
+        font-size: 47px !important;
+    }
+
+    .about h5{
+        font-size: 53px;
+    }
+
+    .about .extra-content div p{
+        font-size: 46px !important;
+    }
+    .heart{
+        font-size: 50px !important;
+    }
+    #centers{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        margin-top: 150px !important;
+    }
+    #empowering{
+        padding-top: 150px !important;
+        padding-right: 150px !important;
+        padding-left: 150px !important;
+    }
+    .empower-text, .farmer-row, .empower-text2{
+        margin-top: 150px !important;
+    }
+    #centers{
+        padding-top: 150px !important;
+    }
+    .book-card .card-body h5{
+        font-size: 60px !important;
+    }
+    .update-imgs, .updates-text{
+        margin-top: 120px !important;
+    }
+    .empower-p i{
+        padding-top: 10px !important;
+        padding-left: 10px;
+        font-size: 48px;
+    }
+    .empower-p p{
+        padding-left: 20px !important;
+        font-size: 46px !important;
+    }
+    #books{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 300px !important;
+    }
+    /* .book-carousel{
+        padding-top: 300px !important;
+        margin-top: 450px !important;
+    } */
+    .book-card .card-body h5{
+        font-size: 65px !important;
+    }
+    #news{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+    .crop h5{
+        padding-left: 60px !important;
+        font-size: 65px !important;
+    }
+
+    .crop p{
+        font-size: 50px !important;
+        padding-left: 200px;
+    }
+
+    .crop i{
+        padding-left: 75px !important;
+        font-size: 55px !important;
+    }
+
+    .crop1, .crop2, .crop3, .crop4, .crop5, .crop6{
+        padding-top: 20px !important;
+    }
+
+    .update-imgs img{
+        height: 570px !important;
+    }
+
+    #gallery{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    #cardCarousel4{
+        margin-top: 40px;
+    }
+
+    #faq{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 150px !important;
+    }
+
+    .faq-img{
+        height: 1300px;
+        width: 1650px !important;
+    }
+
+    .agriculture .accordion{
+        margin-top: 50px !important;
+    }
+
+    .farmer-row img{
+        height: 830px !important;
+        width: 830px !important;
+    }
+    #videos{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        padding-top: 130px;
+    }
+    #cardCarousel3{
+        margin-top: 50px;
+    }
+    .agriculture .acc-btn{
+        font-size: 50px;
+    }
+
+    .agriculture .acc-body{
+        font-size: 45px;
+    }
+    .video-caro video, .video-caro iframe{
+        height: 1000px !important;
+    }
+
+    .text h3, .contact1 h3, .links h3{
+        font-size: 75px !important;
+    }
+    .contact h5{
+        font-size: 49px;
+    }
+
+    .text p, .links div a,  .contact p{
+        padding-top: 30px !important;
+        font-size: 38px !important;
+    }
+
+    .copyright p{
+        font-size: 40px !important;
+    }
+
+    .copyright h6{
+        font-size: 40px !important;
+    }
+    .icons li a span{
+        font-size: 45px !important;
+    }
+    .icons li {
+        height: 100px;
+        width: 100px;
+    }
+    #footer.foot {
+        background-size: 100% auto; /* ya 80% auto / contain / cover — jo tumhein suit kare */
+       
+    }
+}
